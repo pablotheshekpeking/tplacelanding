@@ -37,11 +37,10 @@ const TypewriterEffect = () => {
   return (
     <Text 
       ref={textRef}
-      data-typed-items="Everything you need" 
-      textDecoration={'underline'} 
+      data-typed-items="ecommerce" 
       color={'orange'} 
-      fontWeight={400} 
-      fontSize={['12px', '12px', '16px', '14px']}
+      fontWeight={'bold'} 
+      fontSize={['40px', '40px', '80px', '80px']}
     >
     </Text>
   );

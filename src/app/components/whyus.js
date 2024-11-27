@@ -7,7 +7,7 @@ export default function WhyUs() {
     return (
         <Box
             w={'full'}
-            h={['auto', 'auto', 'auto', '481px']}
+            h={['auto', 'auto', 'auto', 'auto']}
             display={'flex'}
             flexDirection={'column'}
             right={'64px'}
