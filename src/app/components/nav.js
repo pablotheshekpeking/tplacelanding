@@ -74,11 +74,16 @@ export default function Nav() {
       </Box>
 
       {/* Mobile Nav */}
-      <Box display={['flex', 'flex', 'none', 'none']} w={'full'} justifyContent={'right'}>
+      <Box 
+        display={['flex', 'flex', 'none', 'none']} 
+        w={'40px'} 
+        justifyContent={'right'}
+        bg={'orange'}
+        borderRadius={'10px'}
+        p={2}
+      >
         <HamburgerIcon
-          boxSize={10}
-          borderRadius={'10px'}
-          bg={'orange'}
+          boxSize={6}
           color={'black'}
           onClick={onOpen}
           cursor={'pointer'}
