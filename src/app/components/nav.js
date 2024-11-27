@@ -65,10 +65,10 @@ export default function Nav() {
         </ScrollLink>
 
         {/* External Links */}
-        <Link href={'https://tplace-orpin.vercel.app/login'} target="_blank">
+        <Link href={'https://app.tradeplace.ng/'} target="_blank">
           <Text w={'100px'} h={'50px'} borderRadius={'20px'} bg={'orange'} border={'1px solid black'} display={'flex'} justifyContent={'center'} alignItems={'center'}>Login</Text>
         </Link>
-        <Link href={'https://tplace-orpin.vercel.app/register'} target="_blank">
+        <Link href={'https://app.tradeplace.ng/register'} target="_blank">
           <Text w={'100px'} h={'50px'} borderRadius={'20px'} bg={'black'} color={'orange'} border={'1px solid orange'} display={'flex'} justifyContent={'center'} alignItems={'center'}>Signup</Text>
         </Link>
       </Box>
@@ -114,7 +114,7 @@ export default function Nav() {
             {/* External Links */}
             <ChakraLink
               as={Link}
-              href="https://tplace-orpin.vercel.app/login"
+              href="https://app.tradeplace.ng/"
               target="_blank"
               onClick={onClose}
             >
@@ -122,7 +122,7 @@ export default function Nav() {
             </ChakraLink>
             <ChakraLink
               as={Link}
-              href="https://tplace-orpin.vercel.app/register"
+              href="https://app.tradeplace.ng/register"
               target="_blank"
               onClick={onClose}
             >
